@@ -4274,6 +4274,8 @@ a.subdued {
     background: none; }
 
 .bar-header {
+  background-color: #86d4d9;
+  color: white;
   top: 0;
   border-top-width: 0;
   border-bottom-width: 1px; }

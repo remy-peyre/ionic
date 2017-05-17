@@ -1,4 +1,73 @@
 /* Empty. Add your own CSS if you like */
-/*.title_home{
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    background: white;
+}
+.subtitle{
+    width: 100%;
     text-align: center;
-}*/
+    color: white;
+    padding-top: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.bg_vote{
+    background-image: url('../img/background_vote.png');
+    background-attachment: local;
+    background-size: 100% 100%;
+    height: 225px;
+}
+.container_two_trash{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.half_trash{
+    width: 83%;
+    height: 100%;
+    margin-left: 6%;
+}
+.row_name{
+    width: 100%;
+    display: inline-flex;
+}
+.size_name{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+.bg_vote2{
+    margin-top: 5px;
+    background-image: url('../img/fond2.png');
+    background-attachment: local;
+    background-size: 100% 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
+.first_vote{
+    width: 100%;
+    margin-top: 10px;
+}
+.button_vote{
+    padding: 5px 10px;
+    border: 1px solid black;
+    width: 24%;
+    margin: auto;
+    margin-top: -12px;
+    background-color: #d8d8d8;
+}
+.separation{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
