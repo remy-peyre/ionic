@@ -1,17 +1,54 @@
-<ion-view style="text-align:center;" view-title="2 trash 1 battle" name="home">
-    <ion-content class="padding">
-        Home
-        <!--
-        <button ion-button round on-touch="$root.openModal();">Open da modal</button>
-        {{test }}
+<ion-view view-title="actu" name="actu">
+    <ion-content class="padding bg_map">
+        <div class="subtitle green">En ce moment !</div>
+        <div class="subtitle red">Vous pouvez apercevoir</div>
 
-
-        <ion-list>
-            <ion-item ng-repeat="mate in classMates">
-                Wesh {{mate.name}} !
-            </ion-item>
-        </ion-list>
-        -->
-
+        <div class="container_name_battle">
+            <div>
+                <img class="half_size_name" src="img/serp_ai.png">
+            </div>
+            <div>
+                <img class="half_size_name" src="img/gryff_ai.png">
+            </div>
+        </div>
+        <div class="container_inline_trash">
+            <div>
+                <img class="size_trash" src="img/serpentard.png">
+            </div>
+            <div>
+                <img class="vs_size" src="img/vs.png">
+            </div>
+            <div>
+                <img class="size_trash" src="img/gryffondor.png">
+            </div>
+        </div>
+        <div class="inline_row_stats">
+            <div class="inline_row_stats">
+                <div class="green_stat"></div>
+                <div class="red_stat"></div>
+            </div>
+        </div>
+        <div class="container_inline_trash_stats">
+            <div>85%</div>
+            <div>15%</div>
+        </div>
+        <div class="contribution">
+            <p>Grâce à vous :</p>
+            <div class="inline_flex">
+                <div class="half_number">
+                    <p>Nous avons récolté </p>
+                    <div class="custom_button_kg">
+                        <p class="size_p_button rectif">4.88 Kg</p>
+                        <p class="size_p_button">de mégots</p>
+                    </div>
+                </div>
+                <div class="half_number">
+                    <p>Le vainqueur actuel :</p>
+                    <div>
+                        <img class="size_trash" src="img/serpentard.png">
+                    </div>
+                </div>
+            </div>
+        </div>
     </ion-content>
 </ion-view>
