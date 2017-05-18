@@ -30,19 +30,19 @@ angular.module('testApp', ['ionic'])
                 templateUrl: 'templates/home.html',
                 controller: 'HomeController'
             }).state('login', {
-                url: '/login',
-                templateUrl: 'templates/login.html'
+                url: '/map',
+                templateUrl: 'templates/map.html'
             })
             .state('articles', {
-                url: '/articles',
-                templateUrl: 'templates/articles.html'
-            })
+                url: '/vote',
+                templateUrl: 'templates/vote.html'
+            })/*
             .state('geo', {
                 url: '/geo',
                 templateUrl: 'templates/geo.html',
                 controller: 'GeoController'
 
-            });
+            })*/;
 
         // if none of the above states are matched, use this as the fallback
         $urlRouterProvider.otherwise('/');

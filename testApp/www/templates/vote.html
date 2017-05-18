@@ -1,6 +1,4 @@
-
-
-<ion-view class="color_header_vote" view-title="vote" name="vote">
+<ion-view class="color_header_vote" view-title="vote" name="vote" ng-controller="VoteController">
     <ion-content class="padding">
         <div style="width: 100%;">
             <div class="bg_vote">
@@ -15,20 +13,32 @@
                     </div>
                 </div>
             </div>
+
+            <!--<body class="padding" ng-controller="PopupCtrl">
+            <button class="button button-dark" ng-click="showPopup()">
+                show
+            </button>
+            <button class="button button-primary" ng-click="showConfirm()">
+                Confirm
+            </button>
+
+            <button ion-button block (click)="showToast('middle')">Show Toast Middle Position</button>
+            -->
+
             <div class="bg_vote2">
                 <div>
                     <div class="subtitle">Voter pour la prochaine battle</div>
                     <div>
                         <img class="first_vote" src="img/realvsfcb.png">
                     </div>
-                    <div class="button_vote">VOTER</div>
+                    <div class="button_vote" ng-click="voteConfirm()">VOTER</div>
                 </div>
                 <div class="separation"></div>
                 <div>
                     <div>
                         <img class="first_vote" src="img/naruto.png">
                     </div>
-                    <div class="button_vote">VOTER</div>
+                    <div class="button_vote" ng-click="voteConfirm()">VOTER</div>
                 </div>
             </div>
         </div>

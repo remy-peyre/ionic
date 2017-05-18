@@ -71,3 +71,60 @@ html {
     margin-top: 15px;
     margin-bottom: 5px;
 }
+
+/*------ MAP -------*/
+.bg_map{
+    background-image: url('../img/fondmap.png');
+    background-attachment: local;
+    background-size: 100% 100%;
+    height: auto;
+}
+.container_name_battle{
+    width: 100%;
+    display: inline-flex;
+    margin: auto;
+    text-align: center;
+}
+.half_size_name{
+    width: 75%;
+    margin-top: 15px;
+}
+.green{
+    color: #47683e;
+    font-size: 28px;
+}
+.red{
+    color: #bc3b2a;
+    font-size: 21px;
+}
+.container_inline_trash{
+    display: inline-flex;
+    text-align: center;
+    padding-top: 16px;
+}
+.size_trash{
+    width: 44%;
+    width: 75%;
+}
+.vs_size{
+    width: 64%;
+    margin-top: 62px;
+}
+.inline_row_stats{
+    width: 100%;
+    height: 30px;
+    display: inline-flex;
+
+}
+.green_stat{
+    width: 85%;
+    height: 7px;
+    background-color: #3d5638;
+}
+.red_stat{
+    width: 15%;
+    height: 7px;
+    background-color: #bc3b2a;
+}
+
+
