@@ -189,6 +189,8 @@ html {
 }
 .size_left_part{
     width: 70%;
+    margin: auto;
+    padding-left: 3px;
 }
 .size_right_part{
     width: 30%;
@@ -197,4 +199,22 @@ html {
 .size_card{
     width: 94%;
     margin-top: 3px;
+}
+.title_map_row{
+    font-weight: bold;
+}
+.p_map_row{
+    font-size: 12px;
+}
+.shadow_inside{
+    box-shadow: -1px 2px 10px 1px rgba(70, 70, 70, 0.3) inset;
+    background-color: white;
+}
+.shadow_inside_light{
+    box-shadow: -1px 2px 10px 1px rgba(70, 70, 70, 0.3) inset;
+    background-color: #86d4d9;
+    color: white;
+}
+.bleu{
+    color: #86d4d9;
 }
